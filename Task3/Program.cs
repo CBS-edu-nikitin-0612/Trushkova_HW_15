@@ -3,7 +3,7 @@ using Task3;
 
 Console.WriteLine("Hello, World!");
 
-Player player = new Player();
+Player player = new ();
 
 IRecodable recording = player as IRecodable;
 recording.Record();
